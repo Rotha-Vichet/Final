@@ -1,0 +1,135 @@
+body{
+    background-color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0;
+    padding-bottom: 20px;
+}
+.contents{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    width: 83rem;
+    /* border: solid 1px white; */
+}
+.title{
+    padding-top: 20px;
+    text-align: center;
+    height: 96px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h3{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    }
+.city{
+    background: #C4C4C4;
+    border-radius: 5px;
+    border: 0;
+    width: 403.1px;
+    height: 45px;
+    padding-left: 20px;
+}
+.inputClass{
+    margin-left: 40px;
+    background-color: #ffffff5b;
+    padding: 20px;
+    width: fit-content;
+    /* margin-bottom: 40px; */
+    border-radius: 10px;
+}
+.form{
+    margin: 0 0 20px 0;
+
+}
+.row{
+    justify-items:space-around;
+    /* border: 1px solid #EDEDED; */
+}
+.row>button{
+    /* padding-left: 10px; */
+    margin: 20px 0 20px 20px;
+    border: 0;
+    width: 180px;
+    height: 40px;
+    background: #383838;
+    border-radius: 8px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    /* identical to box height, or 19px */
+    text-align: center;
+    justify-items: center;
+    
+    color: #ffffff;
+
+}
+.table{
+    margin-left: 200px;
+}
+table{
+    background-color: rgba(192, 192, 192, 0.288);
+    color: white;
+    border-radius: 10px;
+    border: #2e2e2e;
+    width: 500px;
+    text-align: center;
+}
+tr>th{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+tr>td{
+    padding: 10px;
+}
+
+@media screen and (max-width: 560px) {
+    /* body {
+      background-color: lightgreen;
+    } */
+    .title{
+        font-size: 2.4em;
+    }
+    .inputClass{
+        margin-left: 0.4em;
+        background-color: #ffffff5b;
+        padding: 1.5em;
+        width: fit-content;
+        /* margin-bottom: 40px; */
+        border-radius: 10px;
+    }
+    .contents{
+        display: flexbox;
+        flex-direction: column;
+        justify-items: space-between;
+    }
+    .table{
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    table{
+        background-color: rgba(192, 192, 192, 0.288);
+        color: white;
+        border-radius: 10px;
+        border: #2e2e2e;
+        width: 28em;
+        text-align: center;
+        
+    }
+  }
